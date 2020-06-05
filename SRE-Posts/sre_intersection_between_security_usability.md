@@ -13,6 +13,7 @@ cover_image: https://jresendiz27-public-assets.s3.us-east-2.amazonaws.com/SRE-Po
 Muchos ingenieros de software, scrum masters, product owners y demás roles dentro del desarrollo de sistemas, hemos pasado por una situación
 semejante como la que muestra la siguiente pregunta
 > _¿Cuánto tiempo necesitas para sacar X feature?_ 
+
 > _Si lo queremos en Y días, ¿Qué necesitamos?_
 
 Este tipo de interrogantes se pueden convertir en la rutina de nuestra profesión, un estrés por vivir detrás de un deadline y generar más 
