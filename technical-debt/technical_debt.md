@@ -2,7 +2,7 @@
 title: Le debo dinero al Banco de México: Negociando la deuda técnica.
 published: false
 description: ¿Cómo podemos afrontar la deuda técnica? Un ejemplo dentro de un equipo de infraestructura
-tags: techical-debt, software-engineering, tooling, devops
+tags: techicaldebt, softwareengineering, tooling, devops
 //cover_image: https://direct_url_to_image.jpg
 ---
 
@@ -115,7 +115,7 @@ Regularmente fomentamos la solución compartida a través de pair programming. S
 
 ## Finalmente: Salir del buró de crédito
 
-El pago de deuda técnica es algo que se tendrá que hacer y es parte de nuestro rol como ingenieros. Es parte de un desarrollo integral el saber tratar con sistemas con deuda y legados (suelen ir relacionados pero no son siempre relacionados), ya que *no siempre podremos crear todo desde cero*.
+El pago de deuda técnica es algo que se tendrá que hacer y es parte de nuestro rol como ingenieros. Es parte de un desarrollo integral el saber tratar con sistemas con deuda y legados (suelen ir relacionados pero no son dependientes), ya que *no siempre podremos crear todo desde cero*.
 
 Ante todo, _se empático con el equipo y el sistema actual_, el objetivo es aprender e incrementar la funcionalidad, no sólo juzgar la situación.
 
