@@ -6,7 +6,7 @@ tags: techicaldebt, softwareengineering, tooling, devops
 //cover_image: https://direct_url_to_image.jpg
 ---
 
-## Apenas llegué y ya estan lloviendo ... los ~~golpes~~ tickets
+## Apenas llegué y ya estan lloviendo los ~~golpes~~ tickets
 
 A todos nos ha pasado. Llegas a un nuevo equipo, una nueva empresa, startup o consultora y tu primer semana te asignan un bug.
 ¿Será mi novatada? ¿Por qué está pasando esto? Probablemente te harás miles de preguntas, pero hay algo común en ese comportamiento: _**la deuda técnica**_.
@@ -23,7 +23,7 @@ Este concepto tiene una analogía directa con la deuda monetaria en cualquier si
 
 Cabe destacar, que como cualquier deuda o préstamo que se pide al banco, siempre se puede negociar y dependerá del uso que decidamos darle.
 
-Por ejemplo, podemos pedir un préstamo para poner un negocio y conforme tengamos cierta liquidez comenzar a pagarlo; o bien, irnos a Chapultepec (Zona de vida nocturna en Guadalajara, México) con nuestros amigos con ese mismo dinero.
+Por ejemplo, podemos pedir un préstamo para poner un negocio y conforme tengamos cierta liquidez comenzar a pagarlo; o bien, irnos a un bar con nuestros amigos a gastarnos el ingreso recién generado.
 
 La situación en la industria del software es la misma. _**No es malo tener deuda técnica, es malo cuándo no decides pagarla o la ignoras**_.
 
@@ -69,7 +69,7 @@ Existen muchas técnicas para el manejo y mantenimiento de código legado, a con
 
 Muchas otras técnicas existen para poder lidiar con código legado o refactoring, algunas de estas las podemos encontrar en el libro de [Refactoring: Improving the design of existing code](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599/ref=sr_1_1?crid=3KUVIUUV0I376&dchild=1&keywords=refactoring+second+edition&qid=1593039494&s=books&sprefix=Refac%2Cstripbooks-intl-ship%2C338&sr=1-1), [Working Effectively with Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052/ref=sr_1_1?crid=WD8QVMAS4BSP&dchild=1&keywords=working+effectively+with+legacy+code&qid=1593039457&s=books&sprefix=working+effec%2Cstripbooks-intl-ship%2C193&sr=1-1), [Effective Java](https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997/ref=sr_1_1?dchild=1&keywords=effective+java&qid=1593039432&s=books&sr=1-1) y [Refactoring Databases: Evolutionary Database Design](https://www.amazon.com/gp/product/0321774515/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0321774515&linkCode=as2&tag=passionaboutd-20), por mencionar algunas fuentes.
 
-Estas técnicas (o métodos) pueden formar parte de nuestro set de trucos de magia para poder resolver problemas, sin embargo, habrá veces que tendremos que reemplazar bloques completos, no por eso perdiendo la funcionalidad y la retrocompatibilidad en caso de ser necesario.
+Estas técnicas (o métodos) pueden formar parte de nuestro set de trucos de magia para poder resolver problemas, sin embargo, habrá veces que tendremos que reemplazar bloques completos, no por eso perdemos la funcionalidad y la retrocompatibilidad en caso de ser necesario.
 
 ## Un caso de estudio: El equipo de tooling en Kueski
 
@@ -84,7 +84,7 @@ Hemos adoptado una forma de trabajo que consiste en los siguientes procesos.
 * Trunk based development
 * Feature flags
 * System monitoring and alerting via Slack
-* Kanban board (para peticiones externas o soporte a ingeniería)
+* Service Desk (para peticiones externas o soporte a ingeniería)
 * Scrum (para planeación y manejo de nuevos features)
 * Kanban board (registro de deuda técnica)
 * Pair programming
