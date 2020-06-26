@@ -124,7 +124,7 @@ _Se humilde y juega en equipo_, a veces nosotros mismos generamos esa deuda téc
 
 Una gran ventaja de tener todo nuestro sistema en un estado sano y mantenible, es que cuando llegan los famosos _volantazos_, muy comunes en nuestra área, nos es más fácil reaccionar y adecuarnos, en lugar de _tener que reinventar todo desde cero_.
 
-La frase de "Para moverse rápido, hay " tiene muchos matices, no debemos ser radicales y por ello buscar lo perfecto o bien _romper todo por el bien común_. Tratemos de buscar el punto medio donde probablemente algunas cosas se lleguen a romper, sin embargo, debemos tratar de mantener al mismo tiempo toda la maquinaria funcionando. 
+La frase de _"Move fast and break things"_ tiene muchos matices, no debemos ser radicales y por ello buscar lo perfecto o bien _romper todo por el bien común_. Tratemos de buscar el punto medio donde probablemente algunas cosas se lleguen a romper, sin embargo, tratando de mantener al mismo tiempo toda la maquinaria funcionando ahora y pensando en un futuro. 
 
 En Tooling fomentamos la discución, siempre apoyando los puntos de vista y empujando que exista una mejora contínua.
 
@@ -141,3 +141,4 @@ Aprender a lidiar con sistemas legados y deuda técnica no te hace más o menos 
 * https://www.youtube.com/watch?v=EZ05e7EMOLM
 * https://www.youtube.com/watch?v=URSWYvyc42M
 * https://martinfowler.com/articles/is-quality-worth-cost.html
+* https://martinfowler.com/bliki/TechnicalDebt.html
