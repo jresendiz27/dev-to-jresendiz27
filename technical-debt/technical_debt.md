@@ -101,7 +101,7 @@ Hemos adoptado una forma de trabajo que consiste en los siguientes procesos.
 
 Cada qué detectamos que necesitamos seguir algún camino poco mantenible o tomar algún atajo para resolver una incidencia, reportamos el ticket de deuda técnica en el Kanban board con el siguiente formato:
 
-* Nombre del projecto
+* Nombre del proyecto
 * Descripción de la deuda a pagar
 * Propuesta o arquitectura de solución (opcional)
 * Esfuerzo estimado inicial (low, medium, high, coffee time)
