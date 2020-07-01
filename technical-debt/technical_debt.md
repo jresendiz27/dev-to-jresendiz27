@@ -21,7 +21,7 @@ La _**deuda técnica**_ se define como el trabajo adicional (o retrabajo) a una 
 
 Este concepto tiene una analogía directa con la deuda monetaria en cualquier sistema financiero, es decir, si dicha deuda no se paga, esta seguirá generando intereses y dificultará su pago futuro o reimplementación, lo cual suele ser muy costoso por la posible pérdida de conocimiento.
 
-Cabe destacar, que como cualquier deuda o préstamo que se pide al banco, siempre se puede negociar y dependerá del uso que decidamos darle.
+Cabe destacar que, como cualquier deuda o préstamo que se pide al banco, siempre se puede negociar y dependerá del uso que decidamos darle.
 
 Por ejemplo, podemos pedir un préstamo para poner un negocio y conforme tengamos cierta liquidez comenzar a pagarlo; o bien, irnos a un bar con nuestros amigos a gastarnos el ingreso recién generado.
 
@@ -33,12 +33,12 @@ Todos hemos tocado ese punto donde tenemos _**sistemas legados**_, procesos comp
 
 Un _**sistema legado**_ es aquel que podemos clasificar como obsoleto, poco actualizado o bien, con visión distinta a lo que requiere el negocio actualmente. **Muchos** factores pueden hacer que un sistema sea clasificado o no como legado. Por ejemplo:
 
-* Falta de soporte de algún framework, biblioteca o lenguaje.
-* Exceso de deuda técnica en el sistema.
-* Actualización de los estándares bajo los que el sistema fue diseñado.
-* Cambios en la estructura del negocio que impiden su actualización gradual.
-* Las métricas sobre cambios o actualizaciones suelen ser muy costosas (relacionado al mismo tiempo a la deuda técnica).
-* Acoplamiento del proceso con algún hardware en específico y qué este haya sido deprecado.
+* Falta de soporte de algún framework, biblioteca o lenguaje
+* Exceso de deuda técnica en el sistema
+* Actualización de los estándares bajo los que el sistema fue diseñado
+* Cambios en la estructura del negocio que impiden su actualización gradual
+* Las métricas sobre cambios o actualizaciones suelen ser muy costosas (relacionado al mismo tiempo a la deuda técnica)
+* Acoplamiento del proceso con algún hardware en específico y qué este haya sido deprecado
 
 Estos solo son algunos de los *muchos* factores que pueden marcar como legado a un sistema.
 Pero la pregunta del millón: ¿Debo reemplazar todo mi sistema  y crearlo desde cero? ¿Puedo evitar tener un sistema legado?
@@ -47,13 +47,13 @@ Las respuestas pueden ser: No y No. Sin embargo, puedes **negociar, visualizar y
 
 ## ¿Aceptan pagos a meses sin intereses?
 
-La forma más sana (como hasta en la vida misma) de atender las deudas que uno tiene es tener visibilidad de las mismas. Dentro de la industria del software la situación es (o se recomienda) sea la misma. Para poder llevar un rastreo más eficaz de la deuda técnica se recomiendan los siguientes puntos:
+La forma más sana (como hasta en la vida misma) de atender las deudas que uno tiene es tener visibilidad de las mismas. Dentro de la industria del software la situación es (o se recomienda que sea) la misma. Para poder llevar un rastreo más eficaz de la deuda técnica se recomiendan los siguientes puntos:
 
 * Mantener un registro de las funcionalidades que generaron nueva deuda (código duplicado, falta de pruebas, diseño acoplado a un componente en específico, problemas de seguridad, etc)
-* Clasificar de forma quincenal (por medio del refinamiento, en caso de usar el framework Scrum) la urgencia, impacto y tiempo de cada tarea de deuda técnica.
+* Clasificar de forma quincenal (por medio del refinamiento, en caso de usar el framework Scrum) la urgencia, impacto y tiempo de cada tarea de deuda técnica
 * Asignar de ser posible del 20 al 25 % de la velocidad del equipo a pagar la deuda técnica que más dolencias les trae para avanzar de una forma más eficiente
 * En caso de ser posible, alinear las nuevas funcionalidades para que la nueva arquitectura sea más mantenible, contando con alta cohesión y bajo acoplamiento
-* Volver a negociar la deuda en caso de ser posible.
+* Volver a negociar la deuda en caso de ser posible
 
 Existen muchas técnicas para el manejo y mantenimiento de código legado, a continuación se listan algunas (de las muchas) existentes:
 
@@ -73,13 +73,13 @@ Estas técnicas (o métodos) pueden formar parte de nuestro set de trucos de mag
 
 ## Un caso de estudio: El equipo de tooling en Kueski
 
-Sin entrar en detalles, en [Kueski](https://kueski.com/) contamos con un equipo enfocado a la creación de herramientas e infraestructura para hacer más fácil la vida al los desarrolladores/ingenieros y así puedan entregar valor al negocio, consierando calidad y velocidad. Cuestiones de CI/CD, aprovisionamiento, regresiones automatizadas, infraestructura, DevSecOps, Manejo de licencias, son algunos de los puntos con los que nos toca lidiar.
+Sin entrar en detalles, en [Kueski](https://kueski.com/) contamos con un equipo enfocado a la creación de herramientas e infraestructura para hacer más fácil la vida al los desarrolladores/ingenieros y así puedan entregar valor al negocio, consierando calidad y velocidad. Cuestiones de CI/CD, aprovisionamiento, regresiones automatizadas, infraestructura, DevSecOps, manejo de licencias, son algunos de los puntos con los que nos toca lidiar.
 
 Desde la creación de este equipo (a la par de la implementación de la cultura DevOps) hemos empujado el financiamiento sano de la deuda técnica. Siendo un equipo de cinco ingenieros, hemos logrado dar soporte a más de 150 pipelines, incluyendo lo antes mencionado hasta la fase de entrega. Y por mucho podemos decir de forma muy humilde ... __Sí, tenemos deuda técnica__ ...
 
 Nadie del equipo era (aún no lo somos) experto en ésta área, comenzamos a notar el incremento en tiempo (o puntos del sprint) para cambios pequeños y eso nos levantó un foco rojo. Desde Agosto del 2019, comenzamos a llevar el tracking puntual de bugs/technical debt que ibamos encontrando o eran reportados por nuestros usuarios finales.
 
-Hemos adoptado una forma de trabajo que consiste en los siguientes procesos.
+Hemos adoptado una forma de trabajo que consiste en los siguientes procesos:
 
 * Trunk based development
 * Feature flags
@@ -112,15 +112,15 @@ Las tareas son refinadas por la persona que la reporta (a veces éstas salen a t
 
 Elegimos las tareas de deuda técnica que se encuentran relacionadas a un componente que requiere una mejora o bien, una funcionalidad nueva. Todo esto lo hacemos adoptando feature flags y monitoreo (con alertas en Slack), lo cual nos ha permitido actuar de forma proactiva en lugar de esperar a que nos llegue la petición por medio de un ticket o una incidencia.
 
-Regularmente fomentamos la solución compartida a través de pair programming. Sin dudarlo hemos aprendido (o mejor dicho, re-aprendido) que varias mentes piensan mejor que una. También decidimos no contar con un coverage del 100%, ya que ante todo, nos gusta contar con cierta flexibilidad para poder innovar sin tener que lidiar con un monolíto de pruebas. [Hay una plática muy buena sobre ésto](https://www.youtube.com/watch?v=EZ05e7EMOLM).
+Regularmente fomentamos la solución compartida a través de pair programming. Sin dudarlo hemos aprendido (o mejor dicho, re-aprendido) que varias mentes piensan mejor que una. También decidimos no contar con un coverage del 100%, ya que ante todo, nos gusta contar con cierta flexibilidad para poder innovar sin tener que lidiar con un monolito de pruebas. [Hay una plática muy buena sobre ésto](https://www.youtube.com/watch?v=EZ05e7EMOLM).
 
 ## Finalmente: Salir del buró de crédito
 
 El pago de deuda técnica es algo que se tendrá que hacer y es parte de nuestro rol como ingenieros. Es parte de un desarrollo integral el saber tratar con sistemas con deuda y legados (suelen ir relacionados pero no son dependientes), ya que *no siempre podremos crear todo desde cero*.
 
-Ante todo, _se empático con el equipo y el sistema actual_, el objetivo es aprender e incrementar la funcionalidad, no sólo juzgar la situación.
+Ante todo, _sé empático con el equipo y el sistema actual_, el objetivo es aprender e incrementar la funcionalidad, no sólo juzgar la situación.
 
-_Se humilde y juega en equipo_, a veces nosotros mismos generamos esa deuda técnica (sí, no somos para nada perfectos), trabaja a la par con el equipo actual o equipos involucrados, para ellos es importante contar con la visibilidad y comprender el estado del arte en ese momento, así se logrará atacar de mejor forma la deuda, no sólo con un contexto sesgado.
+_Sé humilde y juega en equipo_, a veces nosotros mismos generamos esa deuda técnica (sí, no somos para nada perfectos), trabaja a la par con el equipo actual o equipos involucrados, para ellos es importante contar con la visibilidad y comprender el estado del arte en ese momento, así se logrará atacar de mejor forma la deuda, no sólo con un contexto sesgado.
 
 Una gran ventaja de tener todo nuestro sistema en un estado sano y mantenible, es que cuando llegan los famosos _volantazos_, muy comunes en nuestra área, nos es más fácil reaccionar y adecuarnos, en lugar de _tener que reinventar todo desde cero_.
 
