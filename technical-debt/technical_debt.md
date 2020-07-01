@@ -41,7 +41,7 @@ Un _**sistema legado**_ es aquel que podemos clasificar como obsoleto, poco actu
 * Acoplamiento del proceso con algún hardware en específico y qué este haya sido deprecado
 
 Estos solo son algunos de los *muchos* factores que pueden marcar como legado a un sistema.
-Pero la pregunta del millón: ¿Debo reemplazar todo mi sistema  y crearlo desde cero? ¿Puedo evitar tener un sistema legado?
+Pero la pregunta del millón: ¿Debo reemplazar todo mi sistema y crearlo desde cero? ¿Puedo evitar tener un sistema legado?
 
 Las respuestas pueden ser: No y No. Sin embargo, puedes **negociar, visualizar y planear** el crecimiento de tu sistema.
 
@@ -52,7 +52,7 @@ La forma más sana (como hasta en la vida misma) de atender las deudas que uno t
 * Mantener un registro de las funcionalidades que generaron nueva deuda (código duplicado, falta de pruebas, diseño acoplado a un componente en específico, problemas de seguridad, etc)
 * Clasificar de forma quincenal (por medio del refinamiento, en caso de usar el framework Scrum) la urgencia, impacto y tiempo de cada tarea de deuda técnica
 * Asignar de ser posible del 20 al 25 % de la velocidad del equipo a pagar la deuda técnica que más dolencias les trae para avanzar de una forma más eficiente
-* En caso de ser posible, alinear las nuevas funcionalidades para que la nueva arquitectura sea más mantenible, contando con alta cohesión y bajo acoplamiento
+* En caso de ser posible, alinear las nuevas funcionalidades para que la nueva arquitectura sea más mantenible, contando con [alta cohesión y bajo acoplamiento](https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6)
 * Volver a negociar la deuda en caso de ser posible
 
 Existen muchas técnicas para el manejo y mantenimiento de código legado, a continuación se listan algunas (de las muchas) existentes:
@@ -73,9 +73,9 @@ Estas técnicas (o métodos) pueden formar parte de nuestro set de trucos de mag
 
 ## Un caso de estudio: El equipo de tooling en Kueski
 
-Sin entrar en detalles, en [Kueski](https://kueski.com/) contamos con un equipo enfocado a la creación de herramientas e infraestructura para hacer más fácil la vida al los desarrolladores/ingenieros y así puedan entregar valor al negocio, consierando calidad y velocidad. Cuestiones de CI/CD, aprovisionamiento, regresiones automatizadas, infraestructura, DevSecOps, manejo de licencias, son algunos de los puntos con los que nos toca lidiar.
+Sin entrar en detalles, en [Kueski](https://kueski.com/) contamos con un equipo enfocado a la creación de herramientas e infraestructura para hacer más fácil la vida a los desarrolladores/ingenieros y así puedan entregar valor al negocio, considerando calidad y velocidad. Cuestiones de CI/CD, aprovisionamiento de servidores, regresiones automatizadas, infraestructura, DevSecOps, manejo de licencias, son algunos de los puntos con los que nos toca lidiar.
 
-Desde la creación de este equipo (a la par de la implementación de la cultura DevOps) hemos empujado el financiamiento sano de la deuda técnica. Siendo un equipo de cinco ingenieros, hemos logrado dar soporte a más de 150 pipelines, incluyendo lo antes mencionado hasta la fase de entrega. Y por mucho podemos decir de forma muy humilde ... __Sí, tenemos deuda técnica__ ...
+Desde la creación de este equipo (a la par de la implementación de la cultura DevOps) hemos empujado el financiamiento sano de la deuda técnica. Siendo un equipo de cinco ingenieros, hemos logrado dar soporte a más de 150 pipelines, incluyendo lo antes mencionado hasta la fase de entrega; ~70 integrantes del equipo de ingeniería (incluyendonos). Y por mucho podemos decir de forma muy humilde ... __Sí, tenemos deuda técnica__ ...
 
 Nadie del equipo era (aún no lo somos) experto en ésta área, comenzamos a notar el incremento en tiempo (o puntos del sprint) para cambios pequeños y eso nos levantó un foco rojo. Desde Agosto del 2019, comenzamos a llevar el tracking puntual de bugs/technical debt que ibamos encontrando o eran reportados por nuestros usuarios finales.
 
@@ -133,6 +133,7 @@ Aprender a lidiar con sistemas legados y deuda técnica no te hace más o menos 
 ## Referencias
 
 * https://medium.com/the-andela-way/what-technical-debt-is-and-how-its-measured-ff41603005e3
+* https://medium.com/clarityhub/low-coupling-high-cohesion-3610e35ac4a6
 * https://itpeernetwork.intel.com/information-security-and-technical-debt-management/
 * https://caylent.com/fight-technical-debt
 * https://jeffreypalermo.com/2009/09/debunking-the-duct-tape-programmer/
