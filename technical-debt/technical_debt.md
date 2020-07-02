@@ -126,7 +126,7 @@ Una gran ventaja de tener todo nuestro sistema en un estado sano y mantenible, e
 
 La frase de _"Move fast and break things"_ tiene muchos matices, no debemos ser radicales y por ello buscar lo perfecto o bien _romper todo por el bien común_. Tratemos de buscar el punto medio donde probablemente algunas cosas se lleguen a romper, sin embargo, tratando de mantener al mismo tiempo toda la maquinaria funcionando ahora y pensando en un futuro. 
 
-En Tooling fomentamos la discución, siempre apoyando los puntos de vista y empujando que exista una mejora contínua.
+En Tooling fomentamos la discusión, siempre apoyando los puntos de vista y empujando que exista una mejora contínua.
 
 Aprender a lidiar con sistemas legados y deuda técnica no te hace más o menos ingeniero (a veces queremos abusar de estar siempre a la vanguardia), recuerda que todo lo nuevo en unos años, será nuevamente código legado.
 
